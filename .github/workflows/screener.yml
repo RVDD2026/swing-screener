@@ -1,0 +1,35 @@
+name: Swing screener
+
+on:
+  schedule:
+    # Di t/m za om 05:00 UTC = na de slotkoers van ma t/m vr (Amerikaanse beurs).
+    - cron: "0 5 * * 2-6"
+  workflow_dispatch: {}   # handmatig starten via de knop "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Pakketten installeren
+        run: pip install -r requirements.txt
+
+      - name: Screener draaien
+        run: python screener.py
+
+      - name: Resultaten opslaan
+        run: |
+          git config user.name "swing-screener-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add results
+          git commit -m "Screener $(date -u +%Y-%m-%d)" || echo "Geen wijzigingen"
+          git push
