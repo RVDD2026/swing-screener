@@ -7,6 +7,7 @@ binnen de swinghorizon uit en schrijft de beste kandidaten weg naar:
 
     results/latest.json      <- dit leest Claude elke werkdag om 15:00
     results/latest.csv
+    results/prijzen.json     <- dagkoersen (60 dagen) van alle aandelen, voor het logboek
     results/archief/JJJJ-MM-DD.csv
 
 Horizon: 3-15 handelsdagen.
@@ -22,8 +23,8 @@ import numpy as np
 import pandas as pd
 
 # ---------------------------------------------------------------- instellingen
-TOP_N = 8                      # aantal kandidaten per richting (long en short)
-EARNINGS_CHECK_N = 25          # zoveel beste per richting worden op earnings gecheckt
+TOP_N = 10                     # aantal kandidaten per richting (long en short)
+EARNINGS_CHECK_N = 30          # zoveel beste per richting worden op earnings gecheckt
 EARNINGS_WINDOW_DAYS = 21      # ~15 handelsdagen
 MIN_PRICE = 10.0
 MIN_DOLLAR_VOL = 20_000_000    # gemiddelde dagomzet in dollars (20 dagen)
@@ -243,8 +244,22 @@ def screen(frames: dict, meta: pd.DataFrame, spy: pd.DataFrame, earnings_fn=next
     )
 
 
-def write_output(res: dict):
+def price_history(frames: dict, days: int = 60) -> dict:
+    """Compacte dagkoersen (datum, high, low, close) per ticker, om picks na te rekenen."""
+    out = {}
+    for t, df in frames.items():
+        tail = df.iloc[-days:]
+        out[t] = [[str(i.date()), round(float(r.High), 2), round(float(r.Low), 2), round(float(r.Close), 2)]
+                  for i, r in tail.iterrows()]
+    return out
+
+
+def write_output(res: dict, prices: dict | None = None):
     os.makedirs(os.path.join(OUT_DIR, "archief"), exist_ok=True)
+    if prices is not None:
+        with open(os.path.join(OUT_DIR, "prijzen.json"), "w", encoding="utf-8") as f:
+            json.dump({"datum_slotkoers": res["datum_slotkoers"], "kolommen": ["datum", "high", "low", "close"],
+                       "koersen": prices}, f, separators=(",", ":"))
     with open(os.path.join(OUT_DIR, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(res, f, ensure_ascii=False, indent=2, default=str)
     flat = pd.DataFrame(res["long"] + res["short"])
@@ -259,7 +274,7 @@ def main():
     frames = download(tickers + ["SPY"])
     spy = frames.pop("SPY")
     res = screen(frames, meta, spy)
-    write_output(res)
+    write_output(res, price_history({**frames, "SPY": spy}))
     print(f"Klaar: {len(res['long'])} long, {len(res['short'])} short "
           f"(slotkoers {res['datum_slotkoers']}, regime {res['markt']['regime']}).")
 
