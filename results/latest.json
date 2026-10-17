@@ -1,28 +1,23 @@
 {
-  "datum_slotkoers": "2026-10-15",
-  "gegenereerd_utc": "2026-10-16 05:23",
+  "datum_slotkoers": "2026-10-16",
+  "gegenereerd_utc": "2026-10-17 05:20",
   "markt": {
-    "spy_koers": 771.79,
-    "spy_sma50": 767.47,
-    "spy_sma200": 721.47,
-    "spy_roc20_pct": 1.46,
-    "regime": "bullish"
+    "spy_koers": 763.25,
+    "spy_sma50": 767.4,
+    "spy_sma200": 721.88,
+    "spy_roc20_pct": 0.2,
+    "regime": "gemengd"
   },
   "aantal_gescand": 503,
   "aantal_setups": {
-    "LONG": 14,
-    "SHORT": 12
+    "LONG": 7,
+    "SHORT": 18
   },
   "uitgesloten_earnings": [
     {
-      "ticker": "DDOG",
+      "ticker": "ILMN",
       "richting": "LONG",
-      "earnings": "2026-11-04"
-    },
-    {
-      "ticker": "FTNT",
-      "richting": "LONG",
-      "earnings": "2026-10-28"
+      "earnings": "2026-10-29"
     },
     {
       "ticker": "TT",
@@ -30,34 +25,9 @@
       "earnings": "2026-10-29"
     },
     {
-      "ticker": "ILMN",
-      "richting": "LONG",
-      "earnings": "2026-10-29"
-    },
-    {
-      "ticker": "TXN",
-      "richting": "LONG",
-      "earnings": "2026-10-21"
-    },
-    {
-      "ticker": "GOOG",
-      "richting": "LONG",
-      "earnings": "2026-10-28"
-    },
-    {
-      "ticker": "EMR",
+      "ticker": "CRL",
       "richting": "LONG",
       "earnings": "2026-11-04"
-    },
-    {
-      "ticker": "GOOGL",
-      "richting": "LONG",
-      "earnings": "2026-10-28"
-    },
-    {
-      "ticker": "FFIV",
-      "richting": "LONG",
-      "earnings": "2026-10-27"
     },
     {
       "ticker": "AME",
@@ -65,19 +35,19 @@
       "earnings": "2026-11-03"
     },
     {
-      "ticker": "WAT",
+      "ticker": "RVTY",
       "richting": "LONG",
       "earnings": "2026-11-03"
     },
     {
-      "ticker": "AAPL",
+      "ticker": "MSFT",
       "richting": "LONG",
-      "earnings": "2026-11-02"
+      "earnings": "2026-10-28"
     },
     {
-      "ticker": "WY",
+      "ticker": "LVS",
       "richting": "SHORT",
-      "earnings": "2026-10-29"
+      "earnings": "2026-10-21"
     },
     {
       "ticker": "CHTR",
@@ -85,9 +55,19 @@
       "earnings": "2026-11-06"
     },
     {
-      "ticker": "NOC",
+      "ticker": "CRH",
       "richting": "SHORT",
-      "earnings": "2026-10-20"
+      "earnings": "2026-10-29"
+    },
+    {
+      "ticker": "PCAR",
+      "richting": "SHORT",
+      "earnings": "2026-10-27"
+    },
+    {
+      "ticker": "TXT",
+      "richting": "SHORT",
+      "earnings": "2026-10-29"
     },
     {
       "ticker": "XYL",
@@ -95,17 +75,17 @@
       "earnings": "2026-10-27"
     },
     {
-      "ticker": "HBAN",
+      "ticker": "PNR",
+      "richting": "SHORT",
+      "earnings": "2026-10-27"
+    },
+    {
+      "ticker": "HON",
       "richting": "SHORT",
       "earnings": "2026-10-22"
     },
     {
-      "ticker": "DD",
-      "richting": "SHORT",
-      "earnings": "2026-11-03"
-    },
-    {
-      "ticker": "HON",
+      "ticker": "CBRE",
       "richting": "SHORT",
       "earnings": "2026-10-22"
     },
@@ -115,146 +95,134 @@
       "earnings": "2026-11-04"
     },
     {
-      "ticker": "CRH",
+      "ticker": "DHI",
       "richting": "SHORT",
       "earnings": "2026-10-29"
     },
     {
-      "ticker": "BA",
+      "ticker": "TDY",
       "richting": "SHORT",
-      "earnings": "2026-10-27"
+      "earnings": "2026-10-21"
+    },
+    {
+      "ticker": "CMI",
+      "richting": "SHORT",
+      "earnings": "2026-11-05"
+    },
+    {
+      "ticker": "PHM",
+      "richting": "SHORT",
+      "earnings": "2026-10-22"
+    },
+    {
+      "ticker": "DD",
+      "richting": "SHORT",
+      "earnings": "2026-11-03"
+    },
+    {
+      "ticker": "NCLH",
+      "richting": "SHORT",
+      "earnings": "2026-10-29"
     }
   ],
   "long": [
     {
-      "ticker": "NTAP",
+      "ticker": "TECH",
       "richting": "LONG",
-      "stop": 207.47,
-      "doel": 240.87,
-      "doeltype": "top 60 dagen",
-      "risico_pct": 3.37,
-      "winst_pct": 12.19,
-      "rr": 3.62,
-      "risico_atr": 0.77,
-      "koers": 214.7,
-      "sma20": 215.64,
-      "sma50": 201.4,
-      "sma200": 143.41,
-      "atr": 9.41,
-      "atr_pct": 4.38,
-      "roc20_pct": 9.27,
-      "rs20_pct": 7.82,
-      "sma20_helling": 1.0,
-      "sma50_helling": 1.14,
-      "sma200_helling": 1.1,
-      "volume_ratio": 0.97,
-      "afstand_sma20_atr": -0.1,
-      "dagomzet_mln": 588.6,
-      "naam": "NetApp",
-      "sector": "Information Technology",
-      "score_momentum": 77.1,
-      "score_potentieel": 91.4,
-      "score_risico": 70.0,
-      "score": 80.0,
-      "earnings": "2026-12-01"
-    },
-    {
-      "ticker": "P",
-      "richting": "LONG",
-      "stop": 126.07,
-      "doel": 157.57,
-      "doeltype": "top 60 dagen",
-      "risico_pct": 5.49,
-      "winst_pct": 18.12,
-      "rr": 3.3,
-      "risico_atr": 1.01,
-      "koers": 133.4,
-      "sma20": 134.33,
-      "sma50": 114.95,
-      "sma200": 82.24,
-      "atr": 7.28,
-      "atr_pct": 5.46,
-      "roc20_pct": 28.28,
-      "rs20_pct": 26.83,
-      "sma20_helling": 1.72,
-      "sma50_helling": 1.95,
-      "sma200_helling": 0.86,
-      "volume_ratio": 0.87,
-      "afstand_sma20_atr": -0.13,
-      "dagomzet_mln": 1050.2,
-      "naam": "Everpure",
-      "sector": "Information Technology",
-      "score_momentum": 81.8,
-      "score_potentieel": 91.4,
-      "score_risico": 52.9,
-      "score": 76.5,
-      "earnings": "onbekend"
+      "stop": 72.35,
+      "doel": 72.99,
+      "doeltype": "uitbraak (+3 ATR)",
+      "risico_pct": 0.31,
+      "winst_pct": 0.57,
+      "rr": 1.85,
+      "risico_atr": 1.62,
+      "koers": 72.57,
+      "sma20": 72.5,
+      "sma50": 72.36,
+      "sma200": 62.62,
+      "atr": 0.14,
+      "atr_pct": 0.19,
+      "roc20_pct": 0.28,
+      "rs20_pct": 0.07,
+      "sma20_helling": 0.33,
+      "sma50_helling": 0.91,
+      "sma200_helling": 9.41,
+      "volume_ratio": 0.81,
+      "afstand_sma20_atr": 0.52,
+      "dagomzet_mln": 213.6,
+      "naam": "Bio-Techne",
+      "sector": "Health Care",
+      "score_momentum": 30.4,
+      "score_potentieel": 40.0,
+      "score_risico": 44.3,
+      "score": 37.9,
+      "earnings": "2026-11-09"
     }
   ],
   "short": [
     {
-      "ticker": "MKC",
+      "ticker": "LEN",
       "richting": "SHORT",
-      "stop": 47.21,
-      "doel": 42.79,
+      "stop": 80.05,
+      "doel": 71.78,
       "doeltype": "bodem 60 dagen",
-      "risico_pct": 3.29,
-      "winst_pct": 6.38,
-      "rr": 1.94,
-      "risico_atr": 1.01,
-      "koers": 45.71,
-      "sma20": 46.16,
-      "sma50": 50.09,
-      "sma200": 53.37,
-      "atr": 1.49,
-      "atr_pct": 3.27,
-      "roc20_pct": -7.05,
-      "rs20_pct": -8.51,
-      "sma20_helling": -0.81,
-      "sma50_helling": -0.78,
-      "sma200_helling": -1.22,
-      "volume_ratio": 1.25,
-      "afstand_sma20_atr": -0.3,
-      "dagomzet_mln": 206.3,
-      "naam": "McCormick & Company",
-      "sector": "Consumer Staples",
-      "score_momentum": 72.5,
-      "score_potentieel": 45.0,
+      "risico_pct": 3.86,
+      "winst_pct": 6.88,
+      "rr": 1.78,
+      "risico_atr": 0.89,
+      "koers": 77.08,
+      "sma20": 78.44,
+      "sma50": 81.41,
+      "sma200": 91.47,
+      "atr": 3.35,
+      "atr_pct": 4.34,
+      "roc20_pct": 1.51,
+      "rs20_pct": 1.3,
+      "sma20_helling": -0.21,
+      "sma50_helling": -0.53,
+      "sma200_helling": -1.02,
+      "volume_ratio": 1.12,
+      "afstand_sma20_atr": -0.41,
+      "dagomzet_mln": 460.2,
+      "naam": "Lennar",
+      "sector": "Consumer Discretionary",
+      "score_momentum": 42.2,
+      "score_potentieel": 48.9,
       "score_risico": 50.8,
-      "score": 56.4,
-      "earnings": "onbekend"
+      "score": 47.1,
+      "earnings": "2026-12-15"
     },
     {
-      "ticker": "GIS",
+      "ticker": "LULU",
       "richting": "SHORT",
-      "stop": 34.39,
-      "doel": 30.6,
+      "stop": 101.47,
+      "doel": 90.38,
       "doeltype": "bodem 60 dagen",
-      "risico_pct": 4.59,
-      "winst_pct": 6.94,
-      "rr": 1.51,
-      "risico_atr": 1.58,
-      "koers": 32.88,
-      "sma20": 32.71,
-      "sma50": 35.78,
-      "sma200": 36.73,
-      "atr": 0.95,
-      "atr_pct": 2.9,
-      "roc20_pct": -8.61,
-      "rs20_pct": -10.06,
-      "sma20_helling": -0.96,
-      "sma50_helling": -0.83,
-      "sma200_helling": -1.16,
-      "volume_ratio": 1.01,
-      "afstand_sma20_atr": 0.18,
-      "dagomzet_mln": 390.1,
-      "naam": "General Mills",
-      "sector": "Consumer Staples",
-      "score_momentum": 78.3,
-      "score_potentieel": 35.0,
-      "score_risico": 48.3,
-      "score": 54.1,
-      "earnings": "2026-12-23"
+      "risico_pct": 4.5,
+      "winst_pct": 6.92,
+      "rr": 1.54,
+      "risico_atr": 1.37,
+      "koers": 97.1,
+      "sma20": 96.97,
+      "sma50": 106.74,
+      "sma200": 139.15,
+      "atr": 3.2,
+      "atr_pct": 3.29,
+      "roc20_pct": -0.98,
+      "rs20_pct": -1.18,
+      "sma20_helling": -0.2,
+      "sma50_helling": -1.62,
+      "sma200_helling": -3.22,
+      "volume_ratio": 0.6,
+      "afstand_sma20_atr": 0.04,
+      "dagomzet_mln": 432.9,
+      "naam": "Lululemon Athletica",
+      "sector": "Consumer Discretionary",
+      "score_momentum": 44.4,
+      "score_potentieel": 34.4,
+      "score_risico": 42.8,
+      "score": 40.4,
+      "earnings": "onbekend"
     }
   ]
 }
