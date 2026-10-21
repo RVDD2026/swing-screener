@@ -1,17 +1,17 @@
 {
-  "datum_slotkoers": "2026-10-19",
-  "gegenereerd_utc": "2026-10-20 05:24",
+  "datum_slotkoers": "2026-10-20",
+  "gegenereerd_utc": "2026-10-21 05:24",
   "markt": {
-    "spy_koers": 766.48,
-    "spy_sma50": 767.3,
-    "spy_sma200": 722.33,
-    "spy_roc20_pct": -0.91,
-    "regime": "gemengd"
+    "spy_koers": 769.05,
+    "spy_sma50": 767.26,
+    "spy_sma200": 722.78,
+    "spy_roc20_pct": -0.56,
+    "regime": "bullish"
   },
   "aantal_gescand": 503,
   "aantal_setups": {
     "LONG": 9,
-    "SHORT": 10
+    "SHORT": 6
   },
   "uitgesloten_earnings": [
     {
@@ -20,24 +20,14 @@
       "earnings": "2026-10-29"
     },
     {
-      "ticker": "CRL",
+      "ticker": "TT",
       "richting": "LONG",
-      "earnings": "2026-11-04"
+      "earnings": "2026-10-29"
     },
     {
-      "ticker": "RVTY",
+      "ticker": "IEX",
       "richting": "LONG",
-      "earnings": "2026-11-03"
-    },
-    {
-      "ticker": "FFIV",
-      "richting": "LONG",
-      "earnings": "2026-10-27"
-    },
-    {
-      "ticker": "AME",
-      "richting": "LONG",
-      "earnings": "2026-11-03"
+      "earnings": "2026-10-28"
     },
     {
       "ticker": "PLTR",
@@ -45,9 +35,19 @@
       "earnings": "2026-11-02"
     },
     {
+      "ticker": "AME",
+      "richting": "LONG",
+      "earnings": "2026-11-03"
+    },
+    {
       "ticker": "TECH",
       "richting": "LONG",
       "earnings": "2026-11-09"
+    },
+    {
+      "ticker": "WAT",
+      "richting": "LONG",
+      "earnings": "2026-11-03"
     },
     {
       "ticker": "AES",
@@ -55,14 +55,9 @@
       "earnings": "2026-11-04"
     },
     {
-      "ticker": "EXPD",
-      "richting": "LONG",
-      "earnings": "2026-11-03"
-    },
-    {
-      "ticker": "CRH",
+      "ticker": "CHTR",
       "richting": "SHORT",
-      "earnings": "2026-10-29"
+      "earnings": "2026-11-06"
     },
     {
       "ticker": "APP",
@@ -70,128 +65,59 @@
       "earnings": "2026-11-04"
     },
     {
-      "ticker": "MAA",
-      "richting": "SHORT",
-      "earnings": "2026-10-28"
-    },
-    {
-      "ticker": "HON",
-      "richting": "SHORT",
-      "earnings": "2026-10-22"
-    },
-    {
-      "ticker": "XYL",
+      "ticker": "BA",
       "richting": "SHORT",
       "earnings": "2026-10-27"
     },
     {
-      "ticker": "UBER",
+      "ticker": "WY",
+      "richting": "SHORT",
+      "earnings": "2026-10-29"
+    },
+    {
+      "ticker": "NVR",
+      "richting": "SHORT",
+      "earnings": "2026-10-22"
+    },
+    {
+      "ticker": "TKO",
       "richting": "SHORT",
       "earnings": "2026-11-04"
-    },
-    {
-      "ticker": "CPT",
-      "richting": "SHORT",
-      "earnings": "2026-11-05"
     }
   ],
-  "long": [],
-  "short": [
+  "long": [
     {
-      "ticker": "MKC",
-      "richting": "SHORT",
-      "stop": 47.21,
-      "doel": 42.79,
-      "doeltype": "bodem 60 dagen",
-      "risico_pct": 2.95,
-      "winst_pct": 6.68,
-      "rr": 2.27,
-      "risico_atr": 0.91,
-      "koers": 45.86,
-      "sma20": 45.94,
-      "sma50": 49.85,
-      "sma200": 53.16,
-      "atr": 1.49,
-      "atr_pct": 3.24,
-      "roc20_pct": -5.2,
-      "rs20_pct": -4.29,
-      "sma20_helling": -0.58,
-      "sma50_helling": -0.81,
-      "sma200_helling": -1.26,
-      "volume_ratio": 1.32,
-      "afstand_sma20_atr": -0.06,
-      "dagomzet_mln": 195.5,
-      "naam": "McCormick & Company",
-      "sector": "Consumer Staples",
-      "score_momentum": 78.0,
-      "score_potentieel": 92.0,
-      "score_risico": 76.0,
-      "score": 82.3,
-      "earnings": "onbekend"
-    },
-    {
-      "ticker": "CPRT",
-      "richting": "SHORT",
-      "stop": 28.49,
-      "doel": 25.72,
-      "doeltype": "bodem 60 dagen",
-      "risico_pct": 3.55,
-      "winst_pct": 6.51,
-      "rr": 1.83,
-      "risico_atr": 1.24,
-      "koers": 27.51,
-      "sma20": 27.38,
-      "sma50": 29.97,
-      "sma200": 32.83,
-      "atr": 0.79,
-      "atr_pct": 2.85,
-      "roc20_pct": -4.84,
-      "rs20_pct": -3.94,
-      "sma20_helling": -0.89,
-      "sma50_helling": -0.66,
-      "sma200_helling": -1.48,
-      "volume_ratio": 1.33,
-      "afstand_sma20_atr": 0.17,
-      "dagomzet_mln": 283.5,
-      "naam": "Copart",
-      "sector": "Industrials",
-      "score_momentum": 83.0,
-      "score_potentieel": 58.0,
-      "score_risico": 53.0,
-      "score": 65.2,
-      "earnings": "2026-11-19"
-    },
-    {
-      "ticker": "LULU",
-      "richting": "SHORT",
-      "stop": 101.44,
-      "doel": 90.38,
-      "doeltype": "bodem 60 dagen",
-      "risico_pct": 3.76,
-      "winst_pct": 7.55,
-      "rr": 2.01,
-      "risico_atr": 1.2,
-      "koers": 97.76,
-      "sma20": 96.79,
-      "sma50": 106.13,
-      "sma200": 138.6,
-      "atr": 3.06,
-      "atr_pct": 3.13,
-      "roc20_pct": -3.49,
-      "rs20_pct": -2.59,
-      "sma20_helling": -0.18,
-      "sma50_helling": -1.76,
-      "sma200_helling": -3.41,
-      "volume_ratio": 0.61,
-      "afstand_sma20_atr": 0.32,
-      "dagomzet_mln": 419.7,
-      "naam": "Lululemon Athletica",
-      "sector": "Consumer Discretionary",
-      "score_momentum": 49.5,
-      "score_potentieel": 84.0,
-      "score_risico": 42.0,
-      "score": 59.3,
-      "earnings": "onbekend"
+      "ticker": "ADI",
+      "richting": "LONG",
+      "stop": 384.53,
+      "doel": 422.67,
+      "doeltype": "top 60 dagen",
+      "risico_pct": 3.15,
+      "winst_pct": 6.45,
+      "rr": 2.05,
+      "risico_atr": 0.96,
+      "koers": 397.05,
+      "sma20": 402.54,
+      "sma50": 383.32,
+      "sma200": 365.83,
+      "atr": 13.06,
+      "atr_pct": 3.29,
+      "roc20_pct": 1.71,
+      "rs20_pct": 2.27,
+      "sma20_helling": 0.46,
+      "sma50_helling": 0.5,
+      "sma200_helling": 0.98,
+      "volume_ratio": 1.21,
+      "afstand_sma20_atr": -0.42,
+      "dagomzet_mln": 1208.0,
+      "naam": "Analog Devices",
+      "sector": "Information Technology",
+      "score_momentum": 52.8,
+      "score_potentieel": 62.2,
+      "score_risico": 63.3,
+      "score": 59.2,
+      "earnings": "2026-11-24"
     }
-  ]
+  ],
+  "short": []
 }

@@ -1,0 +1,2 @@
+ticker,richting,stop,doel,doeltype,risico_pct,winst_pct,rr,risico_atr,koers,sma20,sma50,sma200,atr,atr_pct,roc20_pct,rs20_pct,sma20_helling,sma50_helling,sma200_helling,volume_ratio,afstand_sma20_atr,dagomzet_mln,naam,sector,score_momentum,score_potentieel,score_risico,score,earnings
+ADI,LONG,384.53,422.67,top 60 dagen,3.15,6.45,2.05,0.96,397.05,402.54,383.32,365.83,13.06,3.29,1.71,2.27,0.46,0.5,0.98,1.21,-0.42,1208.0,Analog Devices,Information Technology,52.8,62.2,63.3,59.2,2026-11-24
