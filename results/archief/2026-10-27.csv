@@ -1,0 +1,10 @@
+ticker,richting,stop,doel,doeltype,risico_pct,winst_pct,rr,risico_atr,koers,sma20,sma50,sma200,atr,atr_pct,roc20_pct,rs20_pct,sma20_helling,sma50_helling,sma200_helling,volume_ratio,afstand_sma20_atr,dagomzet_mln,naam,sector,score_momentum,score_potentieel,score_risico,score,earnings
+DG,LONG,122.65,139.12,top 60 dagen,3.32,9.66,2.91,0.86,126.86,127.39,125.46,124.93,4.88,3.84,3.95,3.24,0.48,0.39,-0.15,1.05,-0.11,273.0,Dollar General,Consumer Staples,34.6,96.9,72.3,67.7,onbekend
+KO,LONG,89.63,95.37,top 60 dagen,1.7,4.6,2.7,0.9,91.18,90.06,89.08,81.04,1.73,1.9,5.0,4.28,0.77,0.75,1.25,1.12,0.65,1536.2,Coca-Cola Company (The),Consumer Staples,63.8,53.8,83.1,66.1,onbekend
+CRM,LONG,231.41,267.8,top 60 dagen,3.94,11.17,2.84,1.09,240.89,237.33,236.84,197.81,8.73,3.63,6.91,6.2,0.38,1.15,-0.25,0.56,0.41,1770.8,Salesforce,Information Technology,35.0,95.4,63.1,64.6,2026-12-02
+VRSN,LONG,287.39,331.34,uitbraak (+3 ATR),5.48,8.98,1.64,1.83,304.04,299.43,294.09,269.77,9.1,2.99,8.65,7.93,0.5,0.37,0.63,1.33,0.51,301.3,Verisign,Information Technology,66.5,44.6,48.5,53.4,onbekend
+ECL,LONG,282.29,308.66,uitbraak (+3 ATR),3.08,5.97,1.94,1.55,291.27,283.98,280.7,274.39,5.8,1.99,4.82,4.11,0.51,0.29,0.37,0.96,1.26,404.8,Ecolab,Materials,41.2,63.1,46.2,50.4,onbekend
+TMO,LONG,653.74,756.11,uitbraak (+3 ATR),5.67,9.1,1.61,1.87,693.02,673.09,648.86,549.31,21.03,3.03,1.97,1.26,0.11,0.91,0.42,1.21,0.95,1649.8,Thermo Fisher Scientific,Health Care,28.1,43.1,31.5,34.4,onbekend
+A,LONG,168.42,191.53,uitbraak (+3 ATR),5.11,7.91,1.55,1.94,177.49,172.04,162.38,135.18,4.68,2.64,1.56,0.84,0.19,1.22,0.7,0.86,1.17,372.5,Agilent Technologies,Health Care,21.5,29.2,26.2,25.6,2026-11-25
+PCG,SHORT,13.47,11.72,bodem 60 dagen,3.92,9.55,2.43,1.29,12.96,12.84,13.89,16.18,0.39,3.04,6.84,6.13,0.46,-2.17,-0.69,0.91,0.31,452.2,PG&E Corporation,Utilities,23.6,68.9,80.0,56.4,onbekend
+SNA,SHORT,373.16,328.86,bodem 60 dagen,4.38,8.01,1.83,2.0,357.51,363.33,373.8,377.07,7.82,2.19,-2.61,-3.32,-0.29,-1.17,0.23,2.21,-0.74,143.8,Snap-on,Industrials,41.7,37.8,41.1,40.2,onbekend
