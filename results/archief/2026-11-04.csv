@@ -1,0 +1,11 @@
+ticker,richting,stop,doel,doeltype,risico_pct,winst_pct,rr,risico_atr,koers,sma20,sma50,sma200,atr,atr_pct,roc20_pct,rs20_pct,sma20_helling,sma50_helling,sma200_helling,volume_ratio,afstand_sma20_atr,dagomzet_mln,naam,sector,score_momentum,score_potentieel,score_risico,score,earnings
+WAT,LONG,441.75,518.62,uitbraak (+3 ATR),5.53,10.91,1.97,1.52,467.6,450.35,433.01,370.57,17.01,3.64,7.25,8.59,0.46,0.62,0.36,1.69,1.01,472.5,Waters Corporation,Health Care,60.6,84.4,54.4,67.1,onbekend
+STLD,LONG,228.39,264.25,top 60 dagen,4.89,10.05,2.06,1.1,240.12,243.69,238.64,224.1,10.69,4.45,2.58,3.92,0.34,0.07,0.68,0.97,-0.33,246.3,Steel Dynamics,Materials,28.9,86.7,66.7,60.5,2027-01-25
+DHR,LONG,223.87,255.66,uitbraak (+3 ATR),4.71,8.83,1.88,1.6,234.93,228.53,219.53,200.4,6.91,2.94,7.52,8.86,0.59,0.68,-0.05,0.74,0.93,1005.2,Danaher Corporation,Health Care,58.3,60.0,58.9,59.1,2027-01-27
+CTSH,LONG,60.8,73.92,top 60 dagen,7.57,12.37,1.63,1.66,65.78,65.38,62.35,58.21,3.0,4.56,15.26,16.6,0.51,0.47,-0.59,1.09,0.13,452.0,Cognizant,Information Technology,73.3,55.6,44.4,58.4,onbekend
+EXPD,LONG,191.02,207.93,top 60 dagen,3.38,5.18,1.53,1.26,197.69,197.2,192.51,167.13,5.29,2.68,3.58,4.92,0.4,0.44,0.79,1.68,0.09,254.9,Expeditors International,Industrials,51.7,22.2,88.9,52.5,onbekend
+BIIB,LONG,237.96,279.24,uitbraak (+3 ATR),6.49,9.74,1.5,2.0,254.46,241.5,229.01,202.45,8.26,3.25,14.54,15.88,0.87,0.89,0.78,1.06,1.57,328.7,Biogen,Health Care,82.2,28.9,27.8,47.2,onbekend
+PTC,LONG,193.52,198.1,uitbraak (+3 ATR),0.85,1.5,1.75,1.71,195.18,194.13,165.4,147.53,0.97,0.5,0.82,2.16,5.37,8.95,2.22,0.67,1.08,504.1,PTC Inc.,Information Technology,51.1,31.1,50.0,43.8,onbekend
+NFLX,SHORT,68.36,61.39,bodem 60 dagen,2.97,7.53,2.54,0.91,66.39,66.89,71.68,81.24,2.16,3.25,-4.75,-3.41,-0.57,-1.38,-1.13,1.17,-0.23,3062.7,Netflix,Communication Services,76.7,73.3,90.0,79.5,2027-01-19
+Q,SHORT,126.39,105.0,bodem 60 dagen,6.41,11.6,1.81,1.29,118.78,119.01,121.52,129.56,5.92,4.98,-8.43,-7.09,-0.53,-0.59,0.54,1.53,-0.04,230.5,Qnity Electronics,Information Technology,80.0,46.7,71.7,65.9,onbekend
+HWM,SHORT,228.37,183.52,bodem 60 dagen,6.94,14.07,2.03,1.39,213.56,209.95,226.05,248.47,10.64,4.98,-4.13,-2.79,-0.42,-1.46,-0.03,1.4,0.34,899.6,Howmet Aerospace,Industrials,43.3,80.0,38.3,54.6,onbekend
