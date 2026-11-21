@@ -1,0 +1,15 @@
+ticker,richting,stop,doel,doeltype,risico_pct,winst_pct,rr,risico_atr,koers,sma20,sma50,sma200,atr,atr_pct,roc20_pct,rs20_pct,sma20_helling,sma50_helling,sma200_helling,volume_ratio,afstand_sma20_atr,dagomzet_mln,naam,sector,score_momentum,score_potentieel,score_risico,score,earnings
+LH,LONG,360.98,391.4,uitbraak (+3 ATR),1.68,6.61,3.94,0.76,367.13,363.16,334.76,294.06,8.09,2.2,11.61,20.84,1.38,1.13,1.22,0.93,0.49,285.8,Labcorp,Health Care,83.4,85.7,77.3,82.4,onbekend
+EW,LONG,99.28,108.0,top 60 dagen,2.52,6.04,2.4,0.82,101.85,100.07,92.22,86.93,3.14,3.09,14.35,23.58,1.28,1.05,0.54,0.95,0.57,513.9,Edwards Lifesciences,Health Care,75.4,70.0,53.9,67.1,onbekend
+DGX,LONG,251.71,275.55,uitbraak (+3 ATR),2.54,6.69,2.63,1.14,258.28,254.57,243.44,216.26,5.76,2.23,6.78,16.01,0.86,0.79,1.27,1.02,0.64,242.0,Quest Diagnostics,Health Care,73.5,80.7,42.1,66.6,onbekend
+BRK-B,LONG,559.55,596.92,top 60 dagen,1.83,4.72,2.58,0.9,570.0,568.89,536.86,502.57,11.62,2.04,5.13,14.36,0.84,1.32,0.69,1.08,0.1,3035.0,Berkshire Hathaway,Financials,62.8,59.3,77.9,66.1,onbekend
+RSG,LONG,242.66,256.79,top 60 dagen,1.6,4.14,2.59,0.82,246.59,246.08,230.24,218.28,4.77,1.94,2.55,11.79,0.8,1.19,0.71,1.08,0.11,363.6,Republic Services,Industrials,53.1,54.3,87.1,63.7,onbekend
+REGN,LONG,889.24,990.72,top 60 dagen,3.42,7.61,2.23,0.97,920.69,912.02,828.93,749.67,32.56,3.54,14.49,23.72,1.05,0.78,0.48,0.92,0.27,971.0,Regeneron Pharmaceuticals,Health Care,72.9,68.6,45.4,63.1,2027-01-28
+LYV,LONG,170.23,187.88,top 60 dagen,2.7,7.38,2.73,0.83,174.96,177.59,173.47,169.26,5.69,3.25,0.88,10.11,0.19,0.12,0.58,1.24,-0.46,544.3,Live Nation Entertainment,Communication Services,35.4,88.6,54.5,59.7,onbekend
+MSI,LONG,507.58,548.29,top 60 dagen,2.43,5.4,2.22,0.9,520.21,511.11,478.78,446.67,14.01,2.69,7.97,17.2,0.99,0.79,0.82,1.11,0.65,629.8,Motorola Solutions,Information Technology,79.6,47.9,50.0,59.6,onbekend
+ERIE,LONG,263.24,294.07,top 60 dagen,3.37,7.94,2.35,1.02,272.43,268.25,246.84,241.57,9.0,3.31,7.46,16.69,0.69,0.51,-0.09,0.94,0.46,57.8,Erie Indemnity,Financials,54.6,78.6,38.4,58.1,onbekend
+AWK,LONG,144.99,160.28,uitbraak (+3 ATR),3.03,7.19,2.37,1.27,149.53,146.89,138.04,132.26,3.58,2.4,5.38,14.61,0.86,0.59,0.58,0.97,0.74,306.3,American Water Works,Utilities,60.2,76.4,31.4,57.2,onbekend
+FICO,SHORT,745.86,586.05,bodem 60 dagen,7.42,15.59,2.1,1.44,694.31,707.21,760.63,1064.25,35.82,5.16,-14.84,-5.61,-0.8,-1.87,-2.28,0.54,-0.36,562.6,Fair Isaac,Information Technology,88.8,100.0,60.0,84.1,2027-01-27
+ODFL,SHORT,178.65,149.95,uitbraak (-3 ATR),6.28,10.79,1.72,1.75,168.09,173.76,177.71,200.77,6.05,3.6,-8.0,1.24,-0.61,-0.51,-0.07,1.1,-0.94,395.8,Old Dominion,Industrials,65.0,65.0,57.5,62.8,onbekend
+SYY,SHORT,80.94,73.72,bodem 60 dagen,3.54,5.69,1.61,1.16,78.17,78.63,78.96,79.38,2.38,3.05,-3.93,5.3,-0.47,-0.28,0.04,0.93,-0.19,311.6,Sysco,Consumer Staples,28.7,40.0,100.0,54.0,2027-02-02
+LII,SHORT,360.75,294.52,uitbraak (-3 ATR),7.85,11.95,1.52,1.97,334.49,347.39,356.07,457.34,13.32,3.98,-11.04,-1.81,-0.58,-0.53,-1.21,1.02,-0.97,270.7,Lennox International,Industrials,67.5,45.0,32.5,49.1,onbekend
